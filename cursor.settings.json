@@ -1,0 +1,39 @@
+{
+  "diffEditor.maxComputationTime": 0,
+  "editor.largeFileOptimizations": false,
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "jestrunner.projectPath": "/Users/neriyarosner/WebstormProjects/doorloop/server",
+  "jestrunner.jestPath": "/Users/neriyarosner/WebstormProjects/doorloop/node_modules/jest/bin/jest.js",
+  "jestrunner.configPath": "server/jest.config.js",
+  "jestrunner.debugOptions": {
+    "runtimeExecutable": "/Users/neriyarosner/.nvm/versions/node/v20.12.2/bin/node",
+    "runtimeArgs": ["--experimental-vm-modules", "--max-old-space-size=65536"]
+  },
+
+  "jest.runMode": "on-demand",
+  "jest.jestCommandLine": "../node_modules/jest/bin/jest.js",
+  "jest.rootPath": "./server",
+  "jest.nodeEnv": {
+    "NODE_OPTIONS": "--experimental-vm-modules --max-old-space-size=65536",
+    "JEST_TIMEOUT": "1"
+  },
+  "git.ignoreRebaseWarning": true,
+  "githubPullRequests.pullBranch": "never"
+}

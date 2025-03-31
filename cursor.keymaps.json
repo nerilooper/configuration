@@ -1,0 +1,63 @@
+[
+  {
+    "key": "f4",
+    "command": "git.openFile"
+  },
+  {
+    "key": "shift+cmd+\\",
+    "command": "-editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+cmd+]",
+    "command": "editor.action.selectToBracket"
+  },
+  {
+    "key": "cmd+; cmd+l",
+    "command": "workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+cmd+f5",
+    "command": "-workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "shift+cmd+backspace",
+    "command": "-chatEditor.action.undoHunk",
+    "when": "editorFocus && hasUndecidedChatEditingResource && !chatSessionRequestInProgress"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "-editor.action.inlineDiffs.cancelEdits",
+    "when": "editorTextFocus && hasActivelyGeneratingDiff"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "-chatEditor.action.reject",
+    "when": "chat.hasEditorModifications && editorFocus && hasUndecidedChatEditingResource && !chat.ctxHasRequestInProgress || chat.hasNotebookEditorModifications && editorFocus && hasUndecidedChatEditingResource && !chat.ctxHasRequestInProgress"
+  },
+  {
+    "key": "cmd+backspace",
+    "command": "-composer.cancelComposerStep",
+    "when": "composerFocused"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "-workbench.action.remote.showMenu"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "-editor.action.toggleOvertypeInsertMode"
+  },
+  {
+    "key": "alt+cmd+o",
+    "command": "workbench.action.gotoSymbol",
+    "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol",
+    "when": "!accessibilityHelpIsShown && !accessibleViewIsShown"
+  }
+]
