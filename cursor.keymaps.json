@@ -71,5 +71,13 @@
   {
     "key": "cmd+t",
     "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "shift+alt+cmd+-",
+    "command": "workbench.action.navigateToLastEditLocation"
+  },
+  {
+    "key": "cmd+r cmd+q",
+    "command": "-workbench.action.navigateToLastEditLocation"
   }
 ]
